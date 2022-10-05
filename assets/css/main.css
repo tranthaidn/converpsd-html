@@ -1,0 +1,11 @@
+/* Reset css base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font */
+    font-family: 'Poppins', sans-serif;
+}

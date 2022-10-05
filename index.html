@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cắt giao diện html/css</title>
+    <!-- add boostrap cdn css link https://getbootstrap.com/docs/5.2/getting-started/introduction/ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <!-- add fontawesome download to use -->
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.2.0-web/css/all.css">
+    <!-- add google font popins link https://fonts.google.com/specimen/Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
+    <!-- add css -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <section class="top-bar">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-auto">
+                        <ul class="top-bar__social-list">
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-weixin"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-auto">
+                        <div class="top-bar__link">
+                            <a href="#">Register</a>
+                            <span>/</span>
+                            <a href="#">Login</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="top-nav">   
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-auto">
+                        <div class="top-nav__logo">
+                            <img class="top-nav__logo-img" src="./assets/images/logo.svg">
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <ul class="top-nav__list">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Recipies</a></li>
+                            <li><a href="#">Recipe Detail</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-auto">
+                        <div class="icon-search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- body  -->
+    <div class="main">
+        <section class="hero">
+            <div class="container-fluid"> 
+                <div class="hero-content">
+                    <h1 class="hero__title">About Us</h1>
+                </div> 
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col">
+                        <div class="about__content">
+                            <h1 class="about__title">About out great team</h1>
+                            <p class="about__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, optio perferendis. Asperiores, mollitia ducimus? Assumenda quia ratione ex repudiandae neque praesentium aspernatur facilis sint, nobis debitis, unde modi nemo voluptas!
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem natus laboriosam quis, nemo amet cupiditate quod. Rerum quas molestias rem autem. Atque, provident! Numquam atque assumenda, recusandae distinctio error eveniet.
+                            </p>
+                            <div class="about__button">
+                                <a href="">
+                                    Read more
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="./assets/images/about.jpg" alt="" class="about__thumbnail">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="facts">
+            <div class="container bg-facts">
+                <div class="row justify-content-around">
+                    <div class="col">
+                        <div class="facts-item">
+                            <img src="./assets/images/icon/1.png" alt="" class="facts-item__img">
+                            <p class="facts-item__big-number">11287</p>
+                            <p class="facts-item__name">Amazing receipies</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="facts-item">
+                            <img src="./assets/images/icon/2.png" alt="" class="facts-item__img">
+                            <p class="facts-item__big-number">215</p>
+                            <p class="facts-item__name">Wine pairing</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="facts-item">
+                            <img src="./assets/images/icon/3.png" alt="" class="facts-item__img">
+                            <p class="facts-item__big-number">171</p>
+                            <p class="facts-item__name">Meat receipies</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="facts-item">
+                            <img src="./assets/images/icon/4.png" alt="" class="facts-item__img">
+                            <p class="facts-item__big-number">22</p>
+                            <p class="facts-item__name">Desert receipies</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <section class="app-footer">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col">
+                        <div class="app-footer__warraper-logo">
+                            <img src="./assets/images/logo.svg" alt="">
+                        </div>
+                        <ul class="app-footer__social-list">
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-weixin"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-auto">
+                        <ul class="app-footer__menu">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Recipies</a></li>
+                            <li><a href="#">Recipe Detail</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                        <p class="app-footer__copyright">Copyright © 2022 by Tran Thai</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
